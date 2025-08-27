@@ -1,0 +1,31 @@
+
+#include <stdio.h>
+
+
+int main() {
+    int num;
+    float fnum, sum;
+
+
+    // Input values
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+
+    printf("Enter a float: ");
+    scanf("%f", &fnum);
+
+
+    // Calculate sum
+    sum = num + fnum;
+
+
+    // Output result
+    printf("Sum = %.2f\n", sum);
+
+
+    return 0;
+}
+
+
+
