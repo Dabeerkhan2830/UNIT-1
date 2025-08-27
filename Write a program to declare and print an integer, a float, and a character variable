@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+
+
+int main() {
+    int num = 10;          // integer variable
+    float pi = 3.14;       // float variable
+    char grade = 'A';      // character variable
+
+
+    printf("Integer: %d\n", num);
+    printf("Float: %.2f\n", pi);
+    printf("Character: %c\n", grade);
+
+
+    return 0;
+}
+
