@@ -1,0 +1,10 @@
+#include <stdio.h>
+void printDetails() {
+    printf("Roll Number: 101\n");
+    printf("Name : Dabeer Khan\n");
+}
+int main() {
+    // Call the function
+    printDetails();
+    return 0;
+}
