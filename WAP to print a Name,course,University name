@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    char name[50]="Dabeer Khan";
+    char course[50]="Btech CSE AIML";
+    char university[50]="Chandigarh University UP";
+    printf("Name:%s\n", name);
+    printf("course:%s\n", course);
+    printf("University:%s\n" , university);
+    return 0;
+
+
+}
+
