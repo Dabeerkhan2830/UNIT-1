@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+
+int main() {
+    float num = 7.85;
+    int converted;
+
+
+    // Explicit type casting
+    converted = (int) num;
+
+
+    printf("Original float value: %.2f\n", num);
+    printf("After explicit type casting to int: %d\n", converted);
+
+
+    return 0;
+}
+
+
