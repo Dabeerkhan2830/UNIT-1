@@ -1,0 +1,35 @@
+
+
+#include <stdio.h>
+
+
+int main() {
+    int a = 5, b;
+
+
+    printf("Initial value of a = %d\n\n", a);
+
+
+    // Post-increment
+    b = a++;
+    printf("After post-increment (b = a++):\n");
+    printf("Value of b = %d\n", b);
+    printf("Value of a = %d\n\n", a);
+
+
+    // Reset a
+    a = 5;
+
+
+    // Pre-increment
+    b = ++a;
+    printf("After pre-increment (b = ++a):\n");
+    printf("Value of b = %d\n", b);
+    printf("Value of a = %d\n", a);
+
+
+    return 0;
+}
+
+
+
