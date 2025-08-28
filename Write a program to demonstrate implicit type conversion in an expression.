@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+
+
+int main() {
+    int intVar = 10;        // integer
+    float floatVar = 5.5;   // float
+    double result;          // double
+    result = intVar + floatVar;
+    printf("Integer value: %d\n", intVar);
+    printf("Float value: %.2f\n", floatVar);
+    printf("Result (int + float, stored in double): %.2f\n", result);
+
+
+    return 0;
+}
+
+
+
+
+
+
